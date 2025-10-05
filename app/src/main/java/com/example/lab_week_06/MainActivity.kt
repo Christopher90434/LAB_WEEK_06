@@ -71,9 +71,59 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Whiskers",
+                    "Playful and energetic",
+                    "https://cdn2.thecatapi.com/images/MTk3MjgwMA.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.BalineseJavanese,
+                    "Luna",
+                    "Graceful and elegant",
+                    "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.ExoticShorthair,
+                    "Simba",
+                    "King of the household",
+                    "https://cdn2.thecatapi.com/images/b3s.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.AmericanCurl,
+                    "Mittens",
+                    "Loves to cuddle",
+                    "https://cdn2.thecatapi.com/images/bbv.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.BalineseJavanese,
+                    "Oliver",
+                    "Adventurous explorer",
+                    "https://cdn2.thecatapi.com/images/c19.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ExoticShorthair,
+                    "Bella",
+                    "Sweet and gentle",
+                    "https://cdn2.thecatapi.com/images/MTU0ODM3Nw.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Shadow",
+                    "Mysterious night prowler",
+                    "https://cdn2.thecatapi.com/images/dum.jpg"
                 )
             )
         )
+
     }
 
     // This will create a pop up dialog when one of the items from the recycler view is clicked.
